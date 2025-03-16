@@ -64,9 +64,8 @@ NEGAN_PID=$!
 python3 prxscan.py -l list.txt &
 PRXSCAN_PID=$!
 
-# Đợi 9 phút 30 giây (570 giây)
-echo "Đang đợi 9 phút 30 giây..."
-countdown 570 &
+
+countdown 999999999999999999999 &
 COUNTDOWN_PID=$!
 
 # Đợi countdown hoàn thành
